@@ -1,6 +1,7 @@
 :root {
   --primary-color: #a56cc1;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #cefff1;
+  --link-color: white;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -41,7 +42,7 @@ p {
 }
 
 .hero {
-  background: #cefff1;
+  background: var(--secondary-color);
 }
 
 .hero p {
@@ -73,11 +74,11 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
 }
 
 .contact-link:hover {
-  color: white;
+  color: var(--link-color);
 }
 
 .about-link {
@@ -92,7 +93,7 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
 }
 .app-link:hover {
   color: var(--secondary-color);
@@ -136,6 +137,10 @@ p {
   }
   p {
     text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 18px;
   }
   .project-link {
     display: block;
