@@ -57,16 +57,16 @@ p {
   font-size: 24px;
 }
 
-.about-section {
+.content-container {
   text-align: left;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 24px;
   font-family: var(--default-font-family);
 }
 
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
@@ -78,6 +78,10 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
+}
+
+.image-background {
+  background-color: var(--secondary-color);
 }
 .navigation-links {
   display: flex;
