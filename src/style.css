@@ -57,6 +57,15 @@ p {
   font-size: 24px;
 }
 
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
